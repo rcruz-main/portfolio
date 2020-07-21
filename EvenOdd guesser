@@ -1,0 +1,24 @@
+print("Hello, world!")
+
+print("-------------------------")
+print("      Henlo world!")
+print("-------------------------")
+print("Ask me a WHOLE number, and I'll tell you if it's odd or even")
+
+number = 1
+
+while number != 0:
+
+    number_text = input("what's the number?")
+    number = int(number_text)
+
+    if number < 1:
+        print("Goodbye")
+
+    elif number % 2 == 0:
+        print("your number is even")
+
+    elif number % 2 > 0:
+        print("your number is odd")
+
+
